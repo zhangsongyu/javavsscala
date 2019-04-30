@@ -1,4 +1,4 @@
-package hello
+package scala.hello
 
 object HelloWorldS {
   def main(args: Array[String]) {

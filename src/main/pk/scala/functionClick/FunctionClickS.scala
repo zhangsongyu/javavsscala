@@ -1,11 +1,12 @@
-package base
+package scala.functionClick
 
 import java.util.Date
 
 import org.junit.Test
 
-class Function {
+class FunctionClickS {
   @Test
+  //传名调用
   def callByName(): Unit = {
     def dogSay(alias: String = "er ha"): String = {
       s"${alias}:wang wang "
@@ -33,7 +34,7 @@ class Function {
     }
 
     val date = new Date
-    val logWithDateBound= {
+    val logWithDateBound = {
       log(date, _: String)
     }
 
